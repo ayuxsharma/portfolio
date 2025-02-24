@@ -1,0 +1,316 @@
+
+        .size{
+            size: 5px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+        }
+        header {
+            padding-bottom: 20px;
+            text-align: center;
+            background-color: black;
+            color:white;
+        }
+        nav ul {
+            background-color: #000;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav li {
+            margin-right: 20px;
+        }
+        .ayushlink{ 
+            border-bottom: (to right);
+            justify-content: space-evenly;
+            color: skyblue;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom-color 0.4s ease-in-out;
+        }
+        .ayushlink:hover{
+            border-bottom-color: rgb(0, 92, 128);
+            transform: translateX(20px);
+        }
+        .container {
+            color: white;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #000;
+            border: 1px solid #000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            margin-top: 0;
+        }
+        .study-record {
+            margin-bottom: 50px;
+            margin-top: 100px;
+        }
+        .study-record table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .study-record th, .study-record td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .study-record th {
+            background-color: black;
+        }
+        .contact-info {
+            margin-bottom: 50px;
+        }
+        .contact-info ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .contact-info li {
+            margin-bottom: 10px;
+        }
+        .socialmedia{
+            margin-bottom: 50px;
+        }
+        .hobbies {
+            margin-top: px;
+            margin-bottom: 70px;
+        }
+        .hobbies ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .profile-photo{
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 0px;
+        }
+        .profile-bio{
+            display: inline-block;
+            vertical-align: middle;
+            padding-bottom:50px;
+            padding-left: 60PX;
+        }
+        .profile-picture{
+            height: 350px;
+            margin-bottom: 100px;
+            display: inline-block;
+            margin-left: 30px;
+            border-radius: 50px;
+            transition: background-color 1s ease, width-size 5s ease, transform 0.8s ease;
+        }
+        .profile-picture:hover{
+            transform: translateY(-50px);
+        }
+        .strong{
+            color:mediumturquoise;
+        }.LINKS{
+            margin-top: 25px;
+            margin-bottom: 150px;
+        }.PARAGAP{
+            margin-bottom: 0PX;
+            padding-bottom: 0PX;
+            margin-top: 50PX;
+        }
+        .achmaindiv{
+          height: 300px;
+          width: 265px;
+        }
+        .achimg{
+          height: 200px;
+          border-radius: 10px;
+          transition: .5s;
+        }
+        .achimg:hover{
+          scale: 1.05;
+          transform: translateY(-6px);
+        }
+        .PACH{
+          margin-bottom: 3px;
+          text-align: center;
+          font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font-size: small;
+        }
+        .bottom{
+            margin-top: 50px;
+        }
+        .BOTTOMALL{
+            align-items: center;
+            font-family: cursive;
+        }
+        .uuu{
+            margin-bottom:0px ;
+             }
+        .vvv{
+            margin-top: 2px;    
+        }
+        .work{
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            width:308px;
+            height: 250x;
+        }
+        .img{
+            width: 278px;
+            height: 210px;
+            border-radius: 10px;
+            display: block;
+            transition: transform 1s;
+        }
+        .layer{
+            width: 100%;
+            height: 0%;
+            background: linear-gradient(orange,white,green);
+            opacity: 30%;
+            border-radius: 10px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0 40px;
+            text-align: center;
+            font-size: 14px;
+            transition: height 0.5s;
+        }
+        .work:hover img{
+            transform: scale(1.2);
+        }
+        .downloadimg{
+          height: 20px;
+        }
+        .container1{
+            margin-top: 0;
+            display: inline-block;
+            color: white;
+            background-color: #000;
+            border: 1px solid #000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .CVBUTTON{
+          border: none;
+          background-color: skyblue;
+          font-weight: 700;
+          font-family: cursive;
+          border-top-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          margin-top: 50px;
+          margin-bottom:20px ;
+          transition: 1s;
+        }
+        .CVBUTTON:hover{
+            transform: translateY(-5px);
+            scale: 1.02;
+            cursor: pointer;
+            opacity: 80%;
+        }
+        
+        .maindiv{
+            vertical-align: middle;
+            display: inline-block;
+            height: 240px;
+            width: 200px;
+            background-color: rgb(76, 76, 76);
+            transition: 0.7s;
+            border-radius: 15px;
+            margin: 5px;
+          }
+          .maindiv:hover{
+            background-color: rgb(0, 255, 255);
+            transform: translateY(-6px);
+            scale: 1.04;
+          }
+          .h{
+            text-decoration: none;
+            font-family: serif;
+            padding-left: 5px;
+            padding-right: 5px;
+            color: #000;
+            text-align: center;
+          }
+          .hl{
+            font-size: small;
+            text-decoration: none;
+            font-family: serif;
+            color: #000;
+            padding-left: 110px;
+          }
+          .h1{
+            color: #000;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 1500;
+            padding-left: 10px;
+          }
+          .hall{
+            min-height: 190px;
+          }
+          .learnmore{
+            margin-bottom: 1px;          
+          }
+          h6{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #000;
+            padding-left: 5px;
+            padding-right: 5px;
+          }
+          .instalogo{
+            height: 65px;
+            vertical-align: middle;
+            transition: 0.5s;
+          }
+          .instalogo:hover{
+            transform: translateY(-5px);
+            scale: 1.2;
+          }
+          .fblogo{
+            height: 47px;
+            vertical-align: middle;
+            transition: 0.5s;
+          }
+          .fblogo:hover{
+            transform: translateY(-5px);
+            scale: 1.2;
+          }
+          .snaplogo{
+            height: 55px;
+            vertical-align: middle;
+            transition: 0.5s;
+          }
+          .snaplogo:hover{
+            transform: translateY(-5px);
+            scale: 1.2;
+          }
+          .linkedinlogo{
+            height: 60px;
+            vertical-align: middle;
+            transition: 0.5s;
+          }
+          .linkedinlogo:hover{
+            transform: translateY(-5px);
+            scale: 1.2;
+          }
+          .githublogo{
+            height: 60px;
+            vertical-align: middle;
+            transition: 0.5s;
+          }
+          .githublogo:hover{
+            transform: translateY(-5px);
+            scale: 1.2;
+          }
+          .S-M-links{
+            text-decoration: none;
+            margin: 15px 15px;
+          }
